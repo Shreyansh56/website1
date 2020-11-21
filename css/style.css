@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    overflow-x: hidden;
+}
+
+:root {
+    --main-bg: #ee463b;
+}
+
+p{
+    font-size: 1.8rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+nav{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 1.5rem;
+}
+
+.navbar-brand{
+    font-size: 1.8rem;
+}
+
+
+.bg-light{
+    background-color: #fff!important;
+}
+
+.common-button{
+    background-color: var(--main-bg);
+    color: #fff!important;
+    border-radius: 22px;
+    outline: none;
+    border: none;
+    padding: 7px 14px;
+}
+
+.common-button:focus{
+    outline: none;
+    border: none;
+}
+
+.links{
+    margin-top: 6px;
+}
+
+.common-link{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: var(--main-bg);
+}
+
+.common-link:hover{
+    text-decoration: none;
+    color: var(--main-bg);
+}
+
+/* ------------------------- header section styling starts here  -----------------------*/
+.header-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height:60vh;
+    background: url(../img/bg.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.header-span1{
+    color: var(--main-bg);
+}
+
+.header-span2{
+    font-size: 3.5rem;
+}
+
+.header-cont{
+    background-color: rgba(255,255,255,0.4);
+    text-align: start;
+    padding: 50px 209px 50px 42px;
+    max-width: 94vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-cont h1 {
+    font-size: 3rem;
+    font-weight: bolder!important;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header-cont p {
+    font-size: 2rem;
+    font-weight: bolder!important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-cont button {
+    font-size: 1.1rem;
+    font-weight: bolder!important;
+    letter-spacing: 0.1rem;
+    padding: 8px 13px;
+}
+
+.common-divider{
+    height: 4px;
+    margin: 6px 0;
+    background: var(--main-bg);
+}
+/* -------------------------- header section styling ends here  ------------------------*/
+
+
+/* -------------------------- About section styling starts here  ------------------------*/
+
+.about{
+    text-align: center;
+    width: 90vw;
+    height: auto;
+}
+
+.about .common-divider{
+    width: 10rem;
+}
+
+.about h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 0!important;
+}
+
+.about p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+}
+
+.about button{
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* -------------------------- About section styling ends here  ------------------------*/
+
+
+/* -------------------- Services section styling starts here---------------------- */
+
+#tab1{
+    background-image: url(../img/img1.jfif);
+}
+
+#tab2 {
+    background-image: url(../img/img2.jfif);
+}
+
+#tab3 {
+    background-image: url(../img/img3.jfif);
+}
+
+#tab4 {
+    background-image: url(../img/img4.jfif);
+}
+
+#tab5 {
+    background-image: url(../img/img5.jfif);
+}
+
+#tab6 {
+    background-image: url(../img/img6.jfif);
+}
+
+#tab7 {
+    background-image: url(../img/img7.jfif);
+}
+
+#tab8 {
+    background-image: url(../img/img8.jfif);
+}
+
+#tab9 {
+    background-image: url(../img/img9.jfif);
+}
+
+.rounded-pill{
+    font-size: 1.5rem;
+}
+
+.tab-pane article{
+    font-size: 1.5rem;
+    max-width: 10000px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.tab-pane{
+    height: 71vh;
+}
+
+.services h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.article-div{
+    width: 87%;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.4);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* .tab-pane{
+    display: flex;
+    align-items: center;
+} */
+
+.tab-pane .row {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab-pane .row .col-md-12{
+    display: grid;
+    place-items: center;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: var(--main-bg);
+    border-radius: 0;
+}
+
+.rounded-pill{
+    color: var(--main-bg);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1rem;
+    border-radius: 0!important;
+    margin: 0!important;
+}
+
+.rounded-pill:hover{
+    color: var(--main-bg);
+}
+
+.services .common-divider{
+    width: 8rem;
+}
+
+.article-div h2{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.nav-pills{
+    padding: 0!important;
+    margin: 0!important;
+    margin-bottom: 2rem!important;    
+}
+
+/* -------------------- Services section styling ends here---------------------- */
+
+/* -------------------- Testimonials section styling starts here---------------------- */
+.testimonials{
+    font-family: 'Poppins', sans-serif;
+}
+
+.testimonials h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.testimonials .common-divider{
+    width: 8rem;
+}
+
+.test-headings{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.test-images{
+    display: flex;
+}
+
+.test-images img{
+    width: 50%;
+    align-self: center;
+}
+
+.test-cont .common-divider{
+    width: 31rem;
+}
+
+.test-cont .row{
+    display: flex;
+    overflow-y: hidden;
+}
+
+.test-text-div{
+    display: flex;
+}
+
+.quote i{
+    font-size: 18px;
+    width: 287px;
+    color: var(--main-bg);
+}
+
+.test-text div{
+    font-size: 1.7rem;
+}
+
+/* -------------------- Testimonials section styling ends here---------------------- */
+
+/* -------------------- Products section styling srarts here---------------------- */
+
+.products h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.products h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+}
+
+.products p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
+
+.products a{
+    font-size: 1.5rem;
+}
+
+.product-img img{
+    width: 100%;
+}
+
+.product-text{
+    margin-top: 6rem;
+}
+
+.products .common-divider{
+    width: 8rem;
+}
+
+/* -------------------- Products section styling ends here---------------------- */
+
+
+/* ################## media queries ############## */
+
+@media only screen and (max-width: 992px) {
+    nav {
+        text-align: center;
+    }
+    .header-cont{
+        padding: 2px 12px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .product-text{
+        margin-top: 0;
+    }
+}
